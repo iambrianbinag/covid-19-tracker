@@ -358,7 +358,7 @@ class CountryOutbreak extends Component {
         <hr />
         <h4 className="alert-heading d-inline bg-white">Select Country</h4>
         <div className="row mt-3">
-          <div className="col-md-4 col-6">
+          <div className="col-12 col-lg-4">
             <div className="form-group bg-white">
               <Select
                 selectClassName="form-control"
@@ -368,11 +368,11 @@ class CountryOutbreak extends Component {
               />
             </div>
           </div>
-          <div className="col-md-8 col-6"></div>
+          <div className="col-6"></div>
         </div>
         <div className="form-group">
           <div className="row">
-            <div className="col-md-4 text-center">
+            <div className="col-md-12 col-lg-4 text-center">
               <div className="row">
                 {this.generateColumnForCard(
                   "border-info",
