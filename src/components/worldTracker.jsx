@@ -74,7 +74,9 @@ const WorldTracker = ({ data, isLoading }) => {
         <p className="mb-0 mt-0 text-center">
           <small>
             Estimated Population:{" "}
-            <strong>{`${worldInfectedRateInfo.population} (${worldInfectedRateInfo.rate}% Infected)`}</strong>{" "}
+            <strong>{`${worldInfectedRateInfo.population.toLocaleString()} (${
+              worldInfectedRateInfo.rate
+            }% Infected)`}</strong>{" "}
             Billion People
           </small>
         </p>
