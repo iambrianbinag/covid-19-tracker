@@ -1,3 +1,9 @@
+# Covid-19 Tracker Worldwide built in React
+
+Tracks current Covid-19 status worldwide including the outbreak trend cases in the past 98 days.The data is coming from Wordometers and Johns Hopkins University that being fetched from API.
+
+API used: https://corona.lmao.ninja/docs/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
