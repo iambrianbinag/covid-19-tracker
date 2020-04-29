@@ -143,7 +143,7 @@ class App extends Component {
           <hr />
           <WorldTracker data={overallData} isLoading={isLoading} />
           <StatisticsCharts data={overallData} dataTrend={dataTrend} />
-          <CountriesTable data={data} />
+          <CountriesTable data={data} isLoading={isLoading} />
           <CountryOutbreak data={data} isLoading={isLoading} />
           <Footer />
           <Particles />

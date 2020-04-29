@@ -9,7 +9,7 @@ class Table extends Component {
 
   addTableWidthBreakpoint = () => {
     let tableBreakPointAtSmallScreen = true;
-    if (window.innerWidth > 440) {
+    if (window.innerWidth > 380) {
       tableBreakPointAtSmallScreen = false;
     }
 
@@ -104,13 +104,25 @@ class Table extends Component {
                       key={column.field}
                     >
                       {typeof row[column.field] === "object" ? (
-                        <div style={{ minWidth: "165px" }}>
+                        <div style={{ position: "relative" }}>
                           <img
-                            style={{ width: "20px", height: "16px" }}
+                            style={{
+                              width: "20px",
+                              height: "16px",
+                              position: "absolute",
+                              top: "3px",
+                            }}
                             src={row[column.field].image}
                             alt="Flag"
                           ></img>{" "}
-                          {row[column.field].name}
+                          <span
+                            style={{
+                              display: "block",
+                              marginLeft: "25px",
+                            }}
+                          >
+                            {row[column.field].name}
+                          </span>
                         </div>
                       ) : (
                         row[column.field]

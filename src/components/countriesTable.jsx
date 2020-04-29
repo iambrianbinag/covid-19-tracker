@@ -148,6 +148,7 @@ class CountriesTable extends Component {
   }
 
   render() {
+    const { isLoading } = this.props;
     const { data, selectOptions, selectedOption } = this.state;
     return (
       <div className="mt-2">
@@ -164,7 +165,7 @@ class CountriesTable extends Component {
             />
           </div>
         </div>
-        <Table data={data} isLoading={false} />
+        <Table data={data} isLoading={isLoading} />
       </div>
     );
   }
