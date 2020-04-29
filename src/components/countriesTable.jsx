@@ -10,7 +10,7 @@ class CountriesTable extends Component {
     data: {
       columns: [
         {
-          label: "Number",
+          label: "#",
           field: "number",
           image: true,
         },
@@ -152,7 +152,7 @@ class CountriesTable extends Component {
     return (
       <div className="mt-2">
         <h4 className="alert-heading d-inline bg-white">
-          Top {selectedOption} Countries
+          Top {selectedOption} Most Cases Countries
         </h4>
         <div className="row mb-4 mt-4">
           <div className="col-md-2 w-50">

@@ -104,14 +104,14 @@ class Table extends Component {
                       key={column.field}
                     >
                       {typeof row[column.field] === "object" ? (
-                        <React.Fragment>
+                        <div style={{ minWidth: "165px" }}>
                           <img
                             style={{ width: "20px", height: "16px" }}
                             src={row[column.field].image}
                             alt="Flag"
                           ></img>{" "}
                           {row[column.field].name}
-                        </React.Fragment>
+                        </div>
                       ) : (
                         row[column.field]
                       )}
