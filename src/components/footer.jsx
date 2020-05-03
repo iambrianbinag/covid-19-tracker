@@ -19,7 +19,15 @@ const Footer = () => {
       </div>
       <p className="text-muted text-center">
         <small>
-          Data from Worldometers and Johns Hopkins University © Brian B.{" "}
+          Data from Worldometers and Johns Hopkins University &copy;{" "}
+          <a
+            className="text-muted"
+            rel="noopener noreferrer"
+            href="https://mutedfaith.github.io/portfolio"
+            target="_blank"
+          >
+            Brian Binag
+          </a>{" "}
           {moment().format("YYYY")}
           {` v${process.env.REACT_APP_PROJECT_VERSION}`}
           <br />
