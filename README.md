@@ -4,6 +4,7 @@ Tracks current Covid-19 status worldwide including the outbreak trend cases in t
 
 Link: https://covid-19-tracker-worldwide.herokuapp.com/
 
+
 API used: https://corona.lmao.ninja/docs/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
