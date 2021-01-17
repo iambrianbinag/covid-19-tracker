@@ -23,7 +23,7 @@ const Footer = () => {
           <a
             className="text-muted"
             rel="noopener noreferrer"
-            href="https://mutedfaith.github.io/portfolio"
+            href="https://iambrianbinag.github.io/portfolio"
             target="_blank"
           >
             Brian Binag
